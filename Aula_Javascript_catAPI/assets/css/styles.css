@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+body {
+	display:grid ;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+	height: 100vh;
+	margin: 0;
+    background-image: url("https://previews.123rf.com/images/nadiinko/nadiinko1808/nadiinko180800164/111652630-seamless-pattern-with-cute-cats-line-drawing-playful-kitten-blue-background-cat-sleeping-in-box-play.jpg?fj=1");
+}
+
+.title {
+    color: #2E2E2E;    
+    font-size: 50px;
+    background: white;
+    
+}
+
+
+
+img {
+    
+    border-width: 10px;
+    border-style: groove;
+    border-color: #2E2E2E;
+	max-width: 600px;
+	border-radius: 30px;
+            
+}
+
+main {
+	text-align: center;
+}
+
+button {
+	border: 0;
+    border-radius: 20px;
+	font-size: 2.2rem;
+	font-weight: 900;
+	padding: 16px;
+	background: #2E2E2E;
+	color: white;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+    align-items: center;
+}
+
+button:hover {
+	background: #2E9AFE;
+}
